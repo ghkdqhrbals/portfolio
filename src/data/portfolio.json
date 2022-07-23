@@ -1,0 +1,67 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/2/main.jpg",
+            "title": "Blockchain-based eco-friendly energy trading platform",
+            "description": "Python, Concensus Algorithm",
+            "url": "http://google.com",
+            "btntext":"view in Website"
+        },
+        {
+            "cover": "/portfolio/3/3.jpg",
+            "title": "Bank Server",
+            "description": "Golang(Backend), AWS, CI/CD, RDS, Docker & Kubernetes",
+            "url": "https://github.com/ghkdqhrbals/golang-backend-master",
+            "btntext":"Visit Github"
+        },
+        {
+            "cover": "/portfolio/4/41.png",
+            "title": "Task Scheduler",
+            "description": "Golang(Backend), React(Frontend), RDS",
+            "url": "https://github.com/ghkdqhrbals/Task-Scheduler",
+            "btntext":"Visit Github"
+        },
+        {
+            "cover": "/portfolio/5/5.png",
+            "title": "Automated vehicle driving route search simulator",
+            "description": "Java(Frontend), GUI, Algorithm",
+            "url": "https://hb95.tistory.com/9",
+            "btntext":"view website"
+        },
+        {
+            "cover": "/portfolio/1/one.png",
+            "title": "De-identificate personal information for privacy preserving",
+            "description": "React, JSX, Tailwind, Jest",
+            "url": "http://google.com",
+            "btntext":"view website"
+        },
+        {
+            "cover": "/portfolio/6.png",
+            "title": "PowerShell malicious script detection NLP ensemble model",
+            "description": "Python, Deep Learning(RNN/LSTM, TF/IDF)",
+            "url": "http://google.com",
+            "btntext":"view website"
+        },
+        {
+            "cover": "/portfolio/1/one.png",
+            "title": "Windows malware classification GCN model using XAI(eXplainable-AI)",
+            "description": "Python, Deep Learning(GCN, XAI-CAM)",
+            "url": "http://google.com",
+            "btntext":"view website"
+        },
+        {
+            "cover": "/portfolio/7.png",
+            "title": "Blockchain Eclipse Attack Design Exploiting Multiple Geth Vulnerabilities",
+            "description": "Golang(Backend), JSON-RPC, Ethereum, Analysis of Blockchain Client",
+            "url": "http://google.com",
+            "btntext":"view website"
+        },
+        {
+            "cover": "/portfolio/7.png",
+            "title": "Analysis of Ethereum Eclipse Attack",
+            "description": "Golang(Backend), JSON-RPC, Ethereum, Analysis of Blockchain Client",
+            "url": "http://google.com",
+            "btntext":"view website"
+        }
+    ]
+}

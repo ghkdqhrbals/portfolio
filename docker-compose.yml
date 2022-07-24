@@ -2,14 +2,13 @@ version: "3.8"
 
 services: 
   app:
-    :
+    build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
     volumes:
       - .:/react-portfolio-website
     ports:
       - "3000:3000"
-
     command: npm start
 
     

@@ -1,11 +1,5 @@
 import { useEffect, useState } from 'react'
 import {
-  faAngular,
-  faCss3,
-  faGitAlt,
-  faHtml5,
-  faJsSquare,
-  faReact,
   faGolang,
   faAws,
 } from '@fortawesome/free-brands-svg-icons'

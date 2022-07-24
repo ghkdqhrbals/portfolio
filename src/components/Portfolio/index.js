@@ -3,10 +3,9 @@ import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import portfolioData from '../../data/portfolio.json';
-import RegisterModal from './RegisterModal'
 const Portfolio = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
-    const [openRegisterModal, setOpenRegisterModal] = useState(false);
+
 
     console.log(portfolioData);
 
@@ -39,12 +38,7 @@ const Portfolio = () => {
                                         className="btn"
                                         onClick={() => window.open(port.url)}
                                     >{port.btntext}</button>
-                                    {openRegisterModal && openRegisterModal && (
-                                        <RegisterModal
-                                            openRegisterModal={openRegisterModal}
-                                            setOpenRegisterModal={() => setOpenRegisterModal(false)}
-                                        />
-                                    )}
+
                                 </div>
                             </div>
                         )

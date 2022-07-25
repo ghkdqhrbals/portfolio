@@ -1,17 +1,8 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/8.png",
-            "title": "Portfolio Web",
-            "description": "React(Frontend), NodeJS(Backend), AWS, CI/CD, Docker & Kubernetes",
-            "url": "https://github.com/ghkdqhrbals/portfolio",
-            "btntext":"Visit Github",
-            "openModalFlag":false,
-            "images":[]
-        },
-        {
             "cover": "/portfolio/3/3.jpg",
-            "title": "Bank Server",
+            "title": "Bank Server base on Micro Service Architecture",
             "description": "Golang(Backend), AWS, CI/CD, RDS, Docker & Kubernetes",
             "url": "https://github.com/ghkdqhrbals/golang-backend-master",
             "btntext":"Visit Github",
@@ -19,38 +10,11 @@
             "images":[]
         },
         {
-            "cover": "/portfolio/4/41.png",
-            "title": "Task Scheduler",
-            "description": "Golang(Backend), React(Frontend), RDS",
-            "url": "https://github.com/ghkdqhrbals/Task-Scheduler",
+            "cover": "/portfolio/8.png",
+            "title": "Portfolio Web",
+            "description": "React(Frontend), NodeJS(Backend), AWS, CI/CD, Docker & Kubernetes",
+            "url": "https://github.com/ghkdqhrbals/portfolio",
             "btntext":"Visit Github",
-            "openModalFlag":false,
-            "images":[]
-        },
-        {
-            "cover": "/portfolio/5/5.png",
-            "title": "Automated vehicle driving route search simulator",
-            "description": "Java(Frontend), GUI, Algorithm",
-            "url": "https://hb95.tistory.com/9",
-            "btntext":"View Website",
-            "openModalFlag":false,
-            "images":[]
-        },
-        {
-            "cover": "/portfolio/6.png",
-            "title": "PowerShell malicious script detection NLP ensemble model",
-            "description": "Python, Deep Learning(RNN/LSTM, TF/IDF)",
-            "url": "https://github.com/ghkdqhrbals/Malware_LSTM",
-            "btntext":"Visit Github",
-            "openModalFlag":false,
-            "images":[]
-        },
-        {
-            "cover": "/portfolio/cam.png",
-            "title": "Windows malware classification GCN model using XAI(eXplainable-AI)",
-            "description": "Python, Deep Learning(GCN, XAI-CAM)",
-            "url": "",
-            "btntext":"Not Allowed",
             "openModalFlag":false,
             "images":[]
         },
@@ -92,6 +56,47 @@
             ]
         },
         {
+            "cover": "/portfolio/4/41.png",
+            "title": "Task Scheduler",
+            "description": "React(Frontend), Golang(Backend), RDS",
+            "url": "https://github.com/ghkdqhrbals/Task-Scheduler",
+            "btntext":"Visit Github",
+            "openModalFlag":false,
+            "images":[]
+        },
+        {
+            "cover": "/portfolio/5/5.png",
+            "title": "Automated vehicle driving route search simulator",
+            "description": "Java(Frontend-Backend), GUI, Algorithm",
+            "url": "https://hb95.tistory.com/9",
+            "btntext":"View Website",
+            "openModalFlag":false,
+            "images":[]
+        },
+        {
+            "cover": "/portfolio/6.png",
+            "title": "PowerShell malicious script detection NLP ensemble model",
+            "description": "Python, Deep Learning(RNN/LSTM, TF/IDF)",
+            "url": "https://github.com/ghkdqhrbals/Malware_LSTM",
+            "btntext":"Visit Github",
+            "openModalFlag":false,
+            "images":[]
+        },
+        {
+            "cover": "/portfolio/cam.png",
+            "title": "Windows malware classification GCN model using XAI(eXplainable-AI)",
+            "description": "Python, Deep Learning(GCN, XAI-CAM)",
+            "url": "",
+            "btntext":"pop it up!",
+            "openModalFlag":true,
+            "images":[
+                "/portfolio/malware/1.png",
+                "/portfolio/malware/2.png",
+                "/portfolio/malware/3.png",
+                "/portfolio/malware/4.png"
+            ]
+        },
+        {
             "cover": "/portfolio/image.png",
             "title": "Analysis of Ethereum Eclipse Attack",
             "description": "Golang(Backend), JSON-RPC, Ethereum, Analysis of Blockchain Client",
@@ -105,13 +110,20 @@
                 ]
         },
         {
-            "cover": "/portfolio/1/one.png",
+            "cover": "/portfolio/deidentificate/6.png",
             "title": "De-identificate personal information for privacy preserving",
             "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com",
-            "btntext":"view website",
-            "openModalFlag":false,
-            "images":[]
+            "url": "",
+            "btntext":"pop it up!",
+            "openModalFlag":true,
+            "images":[
+                "/portfolio/deidentificate/1.png",
+                "/portfolio/deidentificate/2.png",
+                "/portfolio/deidentificate/3.png",
+                "/portfolio/deidentificate/4.png",
+                "/portfolio/deidentificate/5.png",
+                "/portfolio/deidentificate/6.png"
+            ]
         },
         {
             "cover": "/portfolio/2/main.jpg",

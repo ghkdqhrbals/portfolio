@@ -1,67 +1,126 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/2/main.jpg",
-            "title": "Blockchain-based eco-friendly energy trading platform",
-            "description": "Python, Concensus Algorithm",
-            "url": "http://google.com",
-            "btntext":"view in Website"
+            "cover": "/portfolio/8.png",
+            "title": "Portfolio Web",
+            "description": "React(Frontend), NodeJS(Backend), AWS, CI/CD, Docker & Kubernetes",
+            "url": "https://github.com/ghkdqhrbals/portfolio",
+            "btntext":"Visit Github",
+            "openModalFlag":false,
+            "images":[]
         },
         {
             "cover": "/portfolio/3/3.jpg",
             "title": "Bank Server",
             "description": "Golang(Backend), AWS, CI/CD, RDS, Docker & Kubernetes",
             "url": "https://github.com/ghkdqhrbals/golang-backend-master",
-            "btntext":"Visit Github"
+            "btntext":"Visit Github",
+            "openModalFlag":false,
+            "images":[]
         },
         {
             "cover": "/portfolio/4/41.png",
             "title": "Task Scheduler",
             "description": "Golang(Backend), React(Frontend), RDS",
             "url": "https://github.com/ghkdqhrbals/Task-Scheduler",
-            "btntext":"Visit Github"
+            "btntext":"Visit Github",
+            "openModalFlag":false,
+            "images":[]
         },
         {
             "cover": "/portfolio/5/5.png",
             "title": "Automated vehicle driving route search simulator",
             "description": "Java(Frontend), GUI, Algorithm",
             "url": "https://hb95.tistory.com/9",
-            "btntext":"view website"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "De-identificate personal information for privacy preserving",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com",
-            "btntext":"view website"
+            "btntext":"View Website",
+            "openModalFlag":false,
+            "images":[]
         },
         {
             "cover": "/portfolio/6.png",
             "title": "PowerShell malicious script detection NLP ensemble model",
             "description": "Python, Deep Learning(RNN/LSTM, TF/IDF)",
-            "url": "http://google.com",
-            "btntext":"view website"
+            "url": "https://github.com/ghkdqhrbals/Malware_LSTM",
+            "btntext":"Visit Github",
+            "openModalFlag":false,
+            "images":[]
         },
         {
-            "cover": "/portfolio/1/one.png",
+            "cover": "/portfolio/cam.png",
             "title": "Windows malware classification GCN model using XAI(eXplainable-AI)",
             "description": "Python, Deep Learning(GCN, XAI-CAM)",
-            "url": "http://google.com",
-            "btntext":"view website"
+            "url": "",
+            "btntext":"Not Allowed",
+            "openModalFlag":false,
+            "images":[]
         },
         {
             "cover": "/portfolio/7.png",
             "title": "Blockchain Eclipse Attack Design Exploiting Multiple Geth Vulnerabilities",
             "description": "Golang(Backend), JSON-RPC, Ethereum, Analysis of Blockchain Client",
             "url": "http://google.com",
-            "btntext":"view website"
+            "btntext":"pop it up!",
+            "openModalFlag":true,
+            "images":[
+                "/portfolio/blockchainEclipseAttack/2.png",
+                "/portfolio/blockchainEclipseAttack/3.png",
+                "/portfolio/blockchainEclipseAttack/4.png",
+                "/portfolio/blockchainEclipseAttack/5.png",
+                "/portfolio/blockchainEclipseAttack/6.png",
+                "/portfolio/blockchainEclipseAttack/7.png",
+                "/portfolio/blockchainEclipseAttack/8.png",
+                "/portfolio/blockchainEclipseAttack/9.png",
+                "/portfolio/blockchainEclipseAttack/10.png",
+                "/portfolio/blockchainEclipseAttack/11.png",
+                "/portfolio/blockchainEclipseAttack/12.png",
+                "/portfolio/blockchainEclipseAttack/13.png",
+                "/portfolio/blockchainEclipseAttack/14.png",
+
+                "/portfolio/blockchainEclipseAttack/19.png",
+                "/portfolio/blockchainEclipseAttack/20.png",
+                "/portfolio/blockchainEclipseAttack/21.png",
+                "/portfolio/blockchainEclipseAttack/22.png",
+                "/portfolio/blockchainEclipseAttack/23.png",
+                "/portfolio/blockchainEclipseAttack/24.png",
+                "/portfolio/blockchainEclipseAttack/25.png",
+                "/portfolio/blockchainEclipseAttack/26.png",
+
+                "/portfolio/blockchainEclipseAttack/15.png",
+                "/portfolio/blockchainEclipseAttack/16.png",
+                "/portfolio/blockchainEclipseAttack/17.png",
+                "/portfolio/blockchainEclipseAttack/18.png"
+            ]
         },
         {
-            "cover": "/portfolio/7.png",
+            "cover": "/portfolio/image.png",
             "title": "Analysis of Ethereum Eclipse Attack",
             "description": "Golang(Backend), JSON-RPC, Ethereum, Analysis of Blockchain Client",
             "url": "http://google.com",
-            "btntext":"view website"
+            "btntext":"pop it up!",
+            "openModalFlag":true,
+            "images":[
+                "/portfolio/EclipseAttack/1.jpg",
+                "/portfolio/EclipseAttack/2.jpg",
+                "/portfolio/EclipseAttack/3.jpg"
+                ]
+        },
+        {
+            "cover": "/portfolio/1/one.png",
+            "title": "De-identificate personal information for privacy preserving",
+            "description": "React, JSX, Tailwind, Jest",
+            "url": "http://google.com",
+            "btntext":"view website",
+            "openModalFlag":false,
+            "images":[]
+        },
+        {
+            "cover": "/portfolio/2/main.jpg",
+            "title": "Blockchain-based eco-friendly energy trading platform",
+            "description": "Python, Concensus Algorithm",
+            "url": "https://github.com/ghkdqhrbals/blockchain-with-python",
+            "btntext":"Visit Github",
+            "openModalFlag":false,
+            "images":[]
         }
     ]
 }

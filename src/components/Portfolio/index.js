@@ -3,9 +3,21 @@ import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import portfolioData from '../../data/portfolio.json';
+import Modal from './Modal/Modal'
 const Portfolio = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
+    const [modalOpen, setModalOpen] = useState(false);
+    const [listOfImages, setlistOfImages] = useState([]);
+    const [portTitle, setPortTitle] = useState('')
 
+    const openModal = () => {
+        setModalOpen(true);
+        return true
+    };
+    const closeModal = () => {
+        setModalOpen(false);
+        return false
+    };
 
     console.log(portfolioData);
 
@@ -18,6 +30,12 @@ const Portfolio = () => {
             clearTimeout(timer);
         }
     });
+
+    const setList = (lists) => {
+        setlistOfImages(lists)
+        return true
+    }
+
 
 
     const renderPortfolio = (portfolio) => {
@@ -36,15 +54,19 @@ const Portfolio = () => {
                                     <h4 className="description">{port.description}</h4>
                                     <button
                                         className="btn"
-                                        onClick={() => window.open(port.url)}
+                                        onClick={() => port.openModalFlag ? (openModal() && setList(port.images) && setPortTitle(port.title)) : window.open(port.url)}
                                     >{port.btntext}</button>
-
                                 </div>
                             </div>
                         )
                     })
+
                 }
-            </div>
+
+                {
+                    modalOpen && < Modal open={openModal} close={closeModal} images={listOfImages} header={portTitle} />
+                }
+            </div >
         );
     }
 

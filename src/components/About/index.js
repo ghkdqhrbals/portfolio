@@ -67,22 +67,22 @@ const About = () => {
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faGolang} color="#DD0031" />
+              <FontAwesomeIcon icon={faAws} color="#F06529" alt="blockchain4" />
             </div>
             <div className="face2">
-              <FontAwesomeIcon icon={faAws} color="#F06529" />
+              <FontAwesomeIcon icon={faGolang} color="#DD0031" alt="blockchain3" />
             </div>
             <div className="face3" >
               <img src={require('./blockchain.png')} width='100'
-                height='100' color="#28A4D9" />
+                height='100' color="#28A4D9" alt="blockchain2" />
             </div>
             <div className="face4">
               <img src={require('./ai.png')} width='100'
-                height='100' color="#28A4D9" />
+                height='100' color="#28A4D9" alt="ai2" />
             </div>
             <div className="face5">
               <img src={require('./python.png')} width='100'
-                height='100' color="#28A4D9" />
+                height='100' color="#28A4D9" alt="python2" />
             </div>
             <div className="face6">
               <label style={{ fontSize: 35 }} >Blockchain</label>

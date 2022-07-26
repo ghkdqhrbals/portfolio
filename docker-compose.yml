@@ -9,24 +9,28 @@ services:
       dockerfile: Dockerfile
     ports:
       - "80:80"
-    networks:
-      - frontend
+    # networks:
+    #   - frontend
       
   client:
     container_name: client
     expose:
-      - "8080"
+      - "3000"
+    restart: "on-failure"
     environment:
-      - PORT=8080
+      - PORT=3000
+      - NODE_ENV=development 
+      - CHOKIDAR_USEPOLLING=true
     build:
       context: ./client
       dockerfile: Dockerfile
     volumes:
       - "./client/:/app"
       - "/app/node_modules"
-    networks:
-      - frontend
+    stdin_open: true
+#     networks:
+#       - frontend
 
-networks: 
-  frontend:
-    driver: bridge
+# networks: 
+#   frontend:
+#     driver: bridge

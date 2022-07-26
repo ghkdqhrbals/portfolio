@@ -1,14 +1,26 @@
-version: "3.8"
-
-services: 
-  app:
+services:
+  nginx:
+    restart: always
+    container_name: nginx
     build:
-      context: .
-      dockerfile: Dockerfile.prod
-    volumes:
-      - .:/react-portfolio-website
+      context: ./nginx
+      dockerfile: Dockerfile
     ports:
       - "80:80"
-    command: npm start
-
+    networks:
+      - frontend
     
+  client:
+    container_name: client
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    volumes:
+      - "./client/:/app"
+      - "/app/node_modules"
+    networks:
+      - frontend
+
+networks: 
+  frontend:
+    driver: bridge

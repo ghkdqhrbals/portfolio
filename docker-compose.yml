@@ -4,11 +4,11 @@ services:
   app:
     build:
       context: .
-      dockerfile: Dockerfile.dev
+      dockerfile: Dockerfile.prod
     volumes:
       - .:/react-portfolio-website
     ports:
-      - "3000:3000"
+      - "80:80"
     command: npm start
 
     

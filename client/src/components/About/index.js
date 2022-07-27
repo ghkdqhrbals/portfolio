@@ -1,11 +1,6 @@
 import { useEffect, useState } from 'react'
-import {
-  faGolang,
-  faAws,
-} from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 import './blockchain.png'
 const About = () => {

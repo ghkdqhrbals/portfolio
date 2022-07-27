@@ -78,7 +78,7 @@ const Portfolio = () => {
                     <AnimatedLetters
                         letterClass={letterClass}
                         strArray={"Projects".split("")}
-                        idx={5}
+                        idx={15}
                     />
                 </h1>
                 <div>{renderPortfolio(portfolioData.portfolio)}</div>

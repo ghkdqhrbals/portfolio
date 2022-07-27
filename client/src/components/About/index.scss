@@ -26,6 +26,28 @@
     margin-bottom: 10px;
   }
 }
+.springy-text {
+  color: #ffd700;
+  animation-name: springy-text;
+  animation-duration: 2.3s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+@keyframes springy-text {
+0%   {
+  letter-spacing: 0.7em;
+  opacity: 0;
+  color: white;
+  }
+100%   {
+  letter-spacing: 0.0em;
+  opacity: 1;
+  color: #ffd700;
+  }
+}
 .upgrade{
   color:#f5ae44;
   font-size: 26px;
@@ -43,9 +65,8 @@
 }
 .introduce{
   padding-left: 20px;
-  height: 100vh;
+  height: 1000px;
   padding-right: 30px;
-  overflow-y: auto;
   font-size: 20px;
 }
 // .introduce::-webkit-scrollbar {

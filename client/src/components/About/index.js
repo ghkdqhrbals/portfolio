@@ -1,29 +1,29 @@
-import { useEffect, useState } from 'react'
+// import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-import AnimatedLetters from '../AnimatedLetters'
+//import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import './blockchain.png'
 const About = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
+  // const [letterClass, setLetterClass] = useState('text-animate')
 
-  useEffect(() => {
-    return setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 3000)
-  }, [])
+  // useEffect(() => {
+  //   return setTimeout(() => {
+  //     setLetterClass('text-animate-hover')
+  //   }, 3000)
+  // }, [])
 
   return (
     <>
       <div className="container about-page">
 
         <div className="text-zone">
-          <h1>
-            <AnimatedLetters
+          <h1 className='springy-text'>
+            About me
+            {/* <AnimatedLetters
               letterClass={letterClass}
               strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
               idx={5}
-            />
-
+            /> */}
           </h1>
           <p style={{ fontSize: 20, marginLeft: 20 }}>
             I'm naturally curious, always interested in learning new skills, and particularly interested in understanding the overall structure of system.
@@ -42,15 +42,16 @@ const About = () => {
           <div className='introduce'>
 
             <p style={{ marginTop: 0 }}>
-              Extensive research on network vulnerabilities in <label className='upgrade'>Blockchain</label> Geth client.
-              Geth is made up with Golang and it is one of Ethereum blockchain client which is used by 85% of Ethereum users.
+
+              Extensive research on network vulnerabilities of <label className='upgrade'>Blockchain</label> Geth clients.
+              Geth is made up of Golang and is one of the Ethereum blockchain clients used by 85% of Ethereum users.
               In Geth client, I found <label className='upgrade2'>3</label> new vulnerabilities(e.g. Delayed outbound connection, Routing Table Node Drop, RPC Packet Drop) in network implementation.
-              With these vulnerabilities, I design Eclipse Attack Module and successfully delay <label className='upgrade2'>20</label> times(above Geth 1.9.25 version).
+              Exploiting these vulnerabilities, I design Eclipse Attack Module and successfully delay the client outbound connection more than <label className='upgrade2'>20</label> times(Geth 1.9.25 version or higher).
             </p>
             <p>
-              As I'm a person who wants to know more about <label className='upgrade'>Backend</label>, I have experience with the following experience.
+              As I'm a person who wants to know more about <label className='upgrade'>Backend</label>, I have experience with the following skills.
               <label className='upgrade3'> Golang</label> for server-side development language.
-              <label className='upgrade3'> GitActions with Docker & Kubernetes </label> for Continuous Integration and Deployment
+              <label className='upgrade3'> Git Actions with Docker & Kubernetes </label> for Continuous Integration and Deployment
               <label className='upgrade3'> AWS-Cloud </label>(EC2, Elastic Kubernetes Service, RDS, Elastic Container Registry, Route-53, etc.) for setting infrastructure.
               <label className='upgrade3'> RDS </label> for storing data.
               <label className='upgrade3'> MockDB </label> for testing database.

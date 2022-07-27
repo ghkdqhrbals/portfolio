@@ -29,7 +29,7 @@ const Modal = (props) => {
                     </main>
                     <footer className='footer'>
                         <button className="footerbtn" onClick={close}>
-                            close
+                            Close
                     </button>
                     </footer>
                 </section>

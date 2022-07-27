@@ -41,7 +41,7 @@
 .container.contact-page,
 .container.about-page,
 .container.portfolio-page {
-  
+  overflow-y: scroll;
     h1 {
       font-size: 53px;
       font-family: 'Coolvetica';
@@ -54,7 +54,6 @@
       
 
       &:before {
-        
         font-family: 'La Belle Aurore', cursive;
         color: #ffd700;
         font-size: 18px;

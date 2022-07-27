@@ -49,13 +49,13 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
-              idx={15}
+              idx={5}
             />
             <br />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
-              idx={22}
+              idx={5}
             />
           </h1>
           <h2>Backend Developer / Blockchain Expert</h2>

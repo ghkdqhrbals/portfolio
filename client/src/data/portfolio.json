@@ -2,7 +2,7 @@
     "portfolio": [
         {
             "cover": "/portfolio/3/3.jpg",
-            "title": "Bank Server base on Micro Service Architecture",
+            "title": "Bank Server for Micro Service Architecture",
             "description": "Golang(Backend), AWS, CI/CD, RDS, Docker & Kubernetes",
             "url": "https://github.com/ghkdqhrbals/golang-backend-master",
             "btntext":"Visit Github",
@@ -12,7 +12,7 @@
         {
             "cover": "/portfolio/8.png",
             "title": "Portfolio Web",
-            "description": "React(Frontend), NodeJS(Backend), AWS, CI/CD, Docker & Kubernetes",
+            "description": "React(Frontend), nginx, AWS, Docker",
             "url": "https://github.com/ghkdqhrbals/portfolio",
             "btntext":"Visit Github",
             "openModalFlag":false,
@@ -21,7 +21,7 @@
         {
             "cover": "/portfolio/7.png",
             "title": "Blockchain Eclipse Attack Design Exploiting Multiple Geth Vulnerabilities",
-            "description": "Golang(Backend), JSON-RPC, Ethereum, Analysis of Blockchain Client",
+            "description": "Golang(Backend), JSON-RPC, Blockchain(Ethereum), Analysis of Blockchain Client",
             "url": "http://google.com",
             "btntext":"pop it up!",
             "openModalFlag":true,
@@ -56,20 +56,11 @@
             ]
         },
         {
-            "cover": "/portfolio/4/41.png",
-            "title": "Task Scheduler",
-            "description": "React(Frontend), Golang(Backend), RDS",
-            "url": "https://github.com/ghkdqhrbals/Task-Scheduler",
+            "cover": "/portfolio/2/main.jpg",
+            "title": "Blockchain-based eco-friendly energy trading platform",
+            "description": "Python, Blockchain, Concensus Algorithm",
+            "url": "https://github.com/ghkdqhrbals/blockchain-with-python",
             "btntext":"Visit Github",
-            "openModalFlag":false,
-            "images":[]
-        },
-        {
-            "cover": "/portfolio/5/5.png",
-            "title": "Automated vehicle driving route search simulator",
-            "description": "Java(Frontend-Backend), GUI, Algorithm",
-            "url": "https://hb95.tistory.com/9",
-            "btntext":"View Website",
             "openModalFlag":false,
             "images":[]
         },
@@ -98,9 +89,9 @@
         },
         {
             "cover": "/portfolio/image.png",
-            "title": "Analysis of Ethereum Eclipse Attack",
-            "description": "Golang(Backend), JSON-RPC, Ethereum, Analysis of Blockchain Client",
-            "url": "http://google.com",
+            "title": "Analysis of Ethereum Eclipse Attack(Paper)",
+            "description": "Blockchain, Ethereum, Eclipse Attack, Analysis of Geth Client",
+            "url": "",
             "btntext":"pop it up!",
             "openModalFlag":true,
             "images":[
@@ -108,6 +99,15 @@
                 "/portfolio/EclipseAttack/2.jpg",
                 "/portfolio/EclipseAttack/3.jpg"
                 ]
+        },
+        {
+            "cover": "/portfolio/5/5.png",
+            "title": "Automated vehicle driving route search simulator",
+            "description": "Java(Frontend-Backend), GUI, Algorithm",
+            "url": "https://hb95.tistory.com/9",
+            "btntext":"View Website",
+            "openModalFlag":false,
+            "images":[]
         },
         {
             "cover": "/portfolio/deidentificate/6.png",
@@ -126,10 +126,10 @@
             ]
         },
         {
-            "cover": "/portfolio/2/main.jpg",
-            "title": "Blockchain-based eco-friendly energy trading platform",
-            "description": "Python, Concensus Algorithm",
-            "url": "https://github.com/ghkdqhrbals/blockchain-with-python",
+            "cover": "/portfolio/4/41.png",
+            "title": "Task Scheduler",
+            "description": "React(Frontend)",
+            "url": "https://github.com/ghkdqhrbals/Task-Scheduler",
             "btntext":"Visit Github",
             "openModalFlag":false,
             "images":[]

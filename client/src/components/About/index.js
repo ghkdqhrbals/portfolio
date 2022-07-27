@@ -26,7 +26,7 @@ const About = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
-              idx={15}
+              idx={5}
             />
 
           </h1>
@@ -46,52 +46,28 @@ const About = () => {
           <div className="education">SKILLS </div>
           <div className='introduce'>
 
-            <p style={{ fontSize: 20, marginTop: 0 }}>
-              Extensive research on vulnerabilities in various <strong><font weight="600" size="5" color="#fc9350" >Blockchain</font></strong> platforms such as Ethereum and Bitcoin. Clear thinker and collaborative team worker.
+            <p style={{ marginTop: 0 }}>
+              Extensive research on network vulnerabilities in <label className='upgrade'>Blockchain</label> Geth client.
+              Geth is made up with Golang and it is one of Ethereum blockchain client which is used by 85% of Ethereum users.
+              In Geth client, I found <label className='upgrade2'>3</label> new vulnerabilities(e.g. Delayed outbound connection, Routing Table Node Drop, RPC Packet Drop) in network implementation.
+              With these vulnerabilities, I design Eclipse Attack Module and successfully delay <label className='upgrade2'>20</label> times(above Geth 1.9.25 version).
             </p>
-            <p style={{ fontSize: 20 }}>
-              As I'm a person who wants to know more about <strong><font weight="600" size="5" color="#fc9350" > Backend </font></strong>, I have experience with the following skills.
-              <strong><font weight="600" size="4" color="#f1ca74" > Golang </font></strong> for server-side development language.
-              <strong><font weight="600" size="4" color="#f1ca74" > GitActions with Docker & Kubernetes </font></strong> for Continuous Integration and Deployment
-              <strong><font weight="600" size="4" color="#f1ca74" > AWS-Cloud </font></strong>(Elastic Kubernetes Service, RDS, Elastic Container Registry, etc.) for setting infrastructure.
-              <strong><font weight="600" size="4" color="#f1ca74" > RDS </font></strong> for storing data.
-              <strong><font weight="600" size="4" color="#f1ca74" > MockDB </font></strong> for testing database. Apply
-              <strong><font weight="600" size="4" color="#f1ca74" > TLS </font></strong> in reverse proxy server for safe communication.
+            <p>
+              As I'm a person who wants to know more about <label className='upgrade'>Backend</label>, I have experience with the following experience.
+              <label className='upgrade3'> Golang</label> for server-side development language.
+              <label className='upgrade3'> GitActions with Docker & Kubernetes </label> for Continuous Integration and Deployment
+              <label className='upgrade3'> AWS-Cloud </label>(EC2, Elastic Kubernetes Service, RDS, Elastic Container Registry, Route-53, etc.) for setting infrastructure.
+              <label className='upgrade3'> RDS </label> for storing data.
+              <label className='upgrade3'> MockDB </label> for testing database.
+              Apply <label className='upgrade3'> TLS </label> in reverse proxy server(nginx) for safe communication.
             </p>
 
-          </div>
+          </div >
 
 
 
-        </div>
-        <div className="stage-cube-cont">
-          <div className="cubespinner">
-            <div className="face1">
-              <FontAwesomeIcon icon={faAws} color="#F06529" alt="blockchain4" />
-            </div>
-            <div className="face2">
-              <FontAwesomeIcon icon={faGolang} color="#DD0031" alt="blockchain3" />
-            </div>
-            <div className="face3" >
-              <img src={require('./blockchain.png')} width='100'
-                height='100' color="#28A4D9" alt="blockchain2" />
-            </div>
-            <div className="face4">
-              <img src={require('./ai.png')} width='100'
-                height='100' color="#28A4D9" alt="ai2" />
-            </div>
-            <div className="face5">
-              <img src={require('./python.png')} width='100'
-                height='100' color="#28A4D9" alt="python2" />
-            </div>
-            <div className="face6">
-              <label style={{ fontSize: 35 }} >Blockchain</label>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
+        </div >
+      </div >
       <Loader type="pacman" />
     </>
   )

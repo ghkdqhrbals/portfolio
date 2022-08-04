@@ -10,10 +10,6 @@ COPY yarn.lock /app/yarn.lock
 RUN yarn install 
 COPY . /app 
 
-#  전역 설치 with -g options
-# RUN npm install -g react-scripts
-# RUN npm install -g react-router-dom 
-
 CMD ["/app/start.sh"]
 COPY .env /app/.env
 

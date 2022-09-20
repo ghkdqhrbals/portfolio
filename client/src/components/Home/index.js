@@ -4,7 +4,11 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoS from '../../assets/images/p.png'
 import './index.scss'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faGithub,
+  faBlogger,
+} from '@fortawesome/free-brands-svg-icons'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
@@ -59,9 +63,19 @@ const Home = () => {
             />
           </h1>
           <h2>Backend Developer / Blockchain Analysist</h2>
-          <Link to="/contact" className="flat-button">
-            CONTACT ME
+          <Link to="/portfolio" className="flat-button">
+            PROJECTS
           </Link>
+          <a
+            className="flat-button"
+            href="https://ghkdqhrbals.github.io/"
+            target="_blank"
+            rel="noreferrer"
+            style={{ marginLeft: 10 }}
+          >
+            STUDY BLOG
+              </a>
+
         </div>
 
 

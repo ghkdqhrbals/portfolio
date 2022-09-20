@@ -26,6 +26,7 @@
             "btntext":"pop it up!",
             "openModalFlag":true,
             "images":[
+                "/portfolio/blockchainEclipseAttack/a.png",
                 "/portfolio/blockchainEclipseAttack/2.png",
                 "/portfolio/blockchainEclipseAttack/3.png",
                 "/portfolio/blockchainEclipseAttack/4.png",

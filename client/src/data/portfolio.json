@@ -89,7 +89,7 @@
             ]
         },
         {
-            "cover": "/portfolio/image.png",
+            "cover": "/portfolio/9.png",
             "title": "Analysis of Ethereum Eclipse Attack(Paper)",
             "description": "Blockchain, Ethereum, Eclipse Attack, Analysis of Geth Client",
             "url": "",
@@ -99,7 +99,7 @@
                 "/portfolio/EclipseAttack/1.jpg",
                 "/portfolio/EclipseAttack/2.jpg",
                 "/portfolio/EclipseAttack/3.jpg"
-                ]
+            ]
         },
         {
             "cover": "/portfolio/5/5.png",
